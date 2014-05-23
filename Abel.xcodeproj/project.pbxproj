@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45D35C0D192F92830091F147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C0C192F92820091F147 /* Foundation.framework */; };
+		45D35C0F192F92830091F147 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C0E192F92830091F147 /* CoreGraphics.framework */; };
+		45D35C11192F92830091F147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C10192F92830091F147 /* UIKit.framework */; };
+		45D35C17192F92830091F147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D35C15192F92830091F147 /* InfoPlist.strings */; };
+		45D35C19192F92830091F147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D35C18192F92830091F147 /* main.m */; };
+		45D35C1D192F92830091F147 /* QiGongAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D35C1C192F92830091F147 /* QiGongAppDelegate.m */; };
+		45D35C20192F92830091F147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D35C1E192F92830091F147 /* Main.storyboard */; };
+		45D35C23192F92830091F147 /* QiGongMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D35C22192F92830091F147 /* QiGongMasterViewController.m */; };
+		45D35C26192F92830091F147 /* QiGongDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D35C25192F92830091F147 /* QiGongDetailViewController.m */; };
+		45D35C28192F92830091F147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D35C27192F92830091F147 /* Images.xcassets */; };
+		45D35C2F192F92830091F147 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C2E192F92830091F147 /* XCTest.framework */; };
+		45D35C30192F92830091F147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C0C192F92820091F147 /* Foundation.framework */; };
+		45D35C31192F92830091F147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D35C10192F92830091F147 /* UIKit.framework */; };
+		45D35C39192F92830091F147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D35C37192F92830091F147 /* InfoPlist.strings */; };
+		45D35C3B192F92830091F147 /* AbelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D35C3A192F92830091F147 /* AbelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45D35C32192F92830091F147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D35C01192F92820091F147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D35C08192F92820091F147;
+			remoteInfo = Abel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45D35C09192F92820091F147 /* Abel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D35C0C192F92820091F147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45D35C0E192F92830091F147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45D35C10192F92830091F147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45D35C14192F92830091F147 /* Abel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Abel-Info.plist"; sourceTree = "<group>"; };
+		45D35C16192F92830091F147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45D35C18192F92830091F147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45D35C1A192F92830091F147 /* Abel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Abel-Prefix.pch"; sourceTree = "<group>"; };
+		45D35C1B192F92830091F147 /* QiGongAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiGongAppDelegate.h; sourceTree = "<group>"; };
+		45D35C1C192F92830091F147 /* QiGongAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiGongAppDelegate.m; sourceTree = "<group>"; };
+		45D35C1F192F92830091F147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45D35C21192F92830091F147 /* QiGongMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiGongMasterViewController.h; sourceTree = "<group>"; };
+		45D35C22192F92830091F147 /* QiGongMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiGongMasterViewController.m; sourceTree = "<group>"; };
+		45D35C24192F92830091F147 /* QiGongDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiGongDetailViewController.h; sourceTree = "<group>"; };
+		45D35C25192F92830091F147 /* QiGongDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiGongDetailViewController.m; sourceTree = "<group>"; };
+		45D35C27192F92830091F147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45D35C2D192F92830091F147 /* AbelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D35C2E192F92830091F147 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45D35C36192F92830091F147 /* AbelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AbelTests-Info.plist"; sourceTree = "<group>"; };
+		45D35C38192F92830091F147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45D35C3A192F92830091F147 /* AbelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45D35C06192F92820091F147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C0F192F92830091F147 /* CoreGraphics.framework in Frameworks */,
+				45D35C11192F92830091F147 /* UIKit.framework in Frameworks */,
+				45D35C0D192F92830091F147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D35C2A192F92830091F147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C2F192F92830091F147 /* XCTest.framework in Frameworks */,
+				45D35C31192F92830091F147 /* UIKit.framework in Frameworks */,
+				45D35C30192F92830091F147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D35C00192F92820091F147 = {
+			isa = PBXGroup;
+			children = (
+				45D35C12192F92830091F147 /* Abel */,
+				45D35C34192F92830091F147 /* AbelTests */,
+				45D35C0B192F92820091F147 /* Frameworks */,
+				45D35C0A192F92820091F147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45D35C0A192F92820091F147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C09192F92820091F147 /* Abel.app */,
+				45D35C2D192F92830091F147 /* AbelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D35C0B192F92820091F147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C0C192F92820091F147 /* Foundation.framework */,
+				45D35C0E192F92830091F147 /* CoreGraphics.framework */,
+				45D35C10192F92830091F147 /* UIKit.framework */,
+				45D35C2E192F92830091F147 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45D35C12192F92830091F147 /* Abel */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C1B192F92830091F147 /* QiGongAppDelegate.h */,
+				45D35C1C192F92830091F147 /* QiGongAppDelegate.m */,
+				45D35C1E192F92830091F147 /* Main.storyboard */,
+				45D35C21192F92830091F147 /* QiGongMasterViewController.h */,
+				45D35C22192F92830091F147 /* QiGongMasterViewController.m */,
+				45D35C24192F92830091F147 /* QiGongDetailViewController.h */,
+				45D35C25192F92830091F147 /* QiGongDetailViewController.m */,
+				45D35C27192F92830091F147 /* Images.xcassets */,
+				45D35C13192F92830091F147 /* Supporting Files */,
+			);
+			path = Abel;
+			sourceTree = "<group>";
+		};
+		45D35C13192F92830091F147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C14192F92830091F147 /* Abel-Info.plist */,
+				45D35C15192F92830091F147 /* InfoPlist.strings */,
+				45D35C18192F92830091F147 /* main.m */,
+				45D35C1A192F92830091F147 /* Abel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45D35C34192F92830091F147 /* AbelTests */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C3A192F92830091F147 /* AbelTests.m */,
+				45D35C35192F92830091F147 /* Supporting Files */,
+			);
+			path = AbelTests;
+			sourceTree = "<group>";
+		};
+		45D35C35192F92830091F147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45D35C36192F92830091F147 /* AbelTests-Info.plist */,
+				45D35C37192F92830091F147 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45D35C08192F92820091F147 /* Abel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D35C3E192F92830091F147 /* Build configuration list for PBXNativeTarget "Abel" */;
+			buildPhases = (
+				45D35C05192F92820091F147 /* Sources */,
+				45D35C06192F92820091F147 /* Frameworks */,
+				45D35C07192F92820091F147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Abel;
+			productName = Abel;
+			productReference = 45D35C09192F92820091F147 /* Abel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45D35C2C192F92830091F147 /* AbelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D35C41192F92830091F147 /* Build configuration list for PBXNativeTarget "AbelTests" */;
+			buildPhases = (
+				45D35C29192F92830091F147 /* Sources */,
+				45D35C2A192F92830091F147 /* Frameworks */,
+				45D35C2B192F92830091F147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45D35C33192F92830091F147 /* PBXTargetDependency */,
+			);
+			name = AbelTests;
+			productName = AbelTests;
+			productReference = 45D35C2D192F92830091F147 /* AbelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45D35C01192F92820091F147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QiGong;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Abel Garcia";
+				TargetAttributes = {
+					45D35C2C192F92830091F147 = {
+						TestTargetID = 45D35C08192F92820091F147;
+					};
+				};
+			};
+			buildConfigurationList = 45D35C04192F92820091F147 /* Build configuration list for PBXProject "Abel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45D35C00192F92820091F147;
+			productRefGroup = 45D35C0A192F92820091F147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45D35C08192F92820091F147 /* Abel */,
+				45D35C2C192F92830091F147 /* AbelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45D35C07192F92820091F147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C28192F92830091F147 /* Images.xcassets in Resources */,
+				45D35C17192F92830091F147 /* InfoPlist.strings in Resources */,
+				45D35C20192F92830091F147 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D35C2B192F92830091F147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C39192F92830091F147 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D35C05192F92820091F147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C19192F92830091F147 /* main.m in Sources */,
+				45D35C1D192F92830091F147 /* QiGongAppDelegate.m in Sources */,
+				45D35C26192F92830091F147 /* QiGongDetailViewController.m in Sources */,
+				45D35C23192F92830091F147 /* QiGongMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D35C29192F92830091F147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D35C3B192F92830091F147 /* AbelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45D35C33192F92830091F147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45D35C08192F92820091F147 /* Abel */;
+			targetProxy = 45D35C32192F92830091F147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45D35C15192F92830091F147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D35C16192F92830091F147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45D35C1E192F92830091F147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D35C1F192F92830091F147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45D35C37192F92830091F147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45D35C38192F92830091F147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45D35C3C192F92830091F147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		45D35C3D192F92830091F147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45D35C3F192F92830091F147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abel/Abel-Prefix.pch";
+				INFOPLIST_FILE = "Abel/Abel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45D35C40192F92830091F147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abel/Abel-Prefix.pch";
+				INFOPLIST_FILE = "Abel/Abel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45D35C42192F92830091F147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Abel.app/Abel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abel/Abel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AbelTests/AbelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45D35C43192F92830091F147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Abel.app/Abel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abel/Abel-Prefix.pch";
+				INFOPLIST_FILE = "AbelTests/AbelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45D35C04192F92820091F147 /* Build configuration list for PBXProject "Abel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D35C3C192F92830091F147 /* Debug */,
+				45D35C3D192F92830091F147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45D35C3E192F92830091F147 /* Build configuration list for PBXNativeTarget "Abel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D35C3F192F92830091F147 /* Debug */,
+				45D35C40192F92830091F147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45D35C41192F92830091F147 /* Build configuration list for PBXNativeTarget "AbelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D35C42192F92830091F147 /* Debug */,
+				45D35C43192F92830091F147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45D35C01192F92820091F147 /* Project object */;
+}
